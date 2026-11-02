@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: talentrag-api
+    runtime: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn api.main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3
+      - key: TALENTRAG_EMBED_BACKEND
+        value: local_tfidf
+      - key: TALENTRAG_STORE_BACKEND
+        value: local
+      - key: TALENTRAG_RERANK_BACKEND
+        value: local_lexical
+      - key: TALENTRAG_EXPLAIN_BACKEND
+        value: local_template
+      # Later, when you add real keys, add them in the Render dashboard
+      # (Environment tab) — never commit them to this file:
+      # OPENAI_API_KEY, PINECONE_API_KEY, ANTHROPIC_API_KEY

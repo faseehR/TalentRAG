@@ -1,0 +1,6 @@
+{
+  "csv_resumes": 10000,
+  "pdf_resumes": 0,
+  "total_chunks": 40000,
+  "pdf_failures": []
+}

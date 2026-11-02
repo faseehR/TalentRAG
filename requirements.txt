@@ -1,0 +1,17 @@
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+python-multipart==0.0.32
+pdfplumber==0.11.9
+pypdf==5.9.0
+rank-bm25==0.2.2
+scikit-learn==1.8.0
+numpy==2.4.4
+langgraph==1.2.11
+langchain-core==1.6.2
+
+# Uncomment when you swap in production backends:
+# google-genai      # needed for Gemini (explainer/embeddings)
+# openai
+# pinecone
+# sentence-transformers
+# anthropic

@@ -1,0 +1,214 @@
+{
+  "retrieval_quality": {
+    "roles_evaluated": 20,
+    "summary": {
+      "dense": {
+        "recall@10": 0.316,
+        "precision@10": 0.835,
+        "mrr": 1.0,
+        "ndcg@10": 0.8479
+      },
+      "hybrid": {
+        "recall@10": 0.3113,
+        "precision@10": 0.825,
+        "mrr": 0.925,
+        "ndcg@10": 0.8256
+      },
+      "hybrid_reranked": {
+        "recall@10": 0.3113,
+        "precision@10": 0.825,
+        "mrr": 0.925,
+        "ndcg@10": 0.8256
+      }
+    }
+  },
+  "role_prediction": {
+    "per_resume": [
+      {
+        "name": "Alice Johnson",
+        "extracted_skills": [
+          "Problem Solving",
+          "JavaScript",
+          "Kubernetes",
+          "Teamwork",
+          "Node.js",
+          "Python",
+          "Docker",
+          "React",
+          "AWS",
+          "SQL"
+        ],
+        "extracted_education": [
+          "Bachelor's in Computer Science"
+        ],
+        "extracted_experience_years": 5.0,
+        "expected_roles": [
+          "Full Stack Developer",
+          "Software Engineer",
+          "Backend Developer"
+        ],
+        "predicted_qualified_roles": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "name": "Bob Smith",
+        "extracted_skills": [
+          "Machine Learning",
+          "Data Analysis",
+          "TensorFlow",
+          "Statistics",
+          "PyTorch",
+          "Python",
+          "Pandas",
+          "SQL"
+        ],
+        "extracted_education": [
+          "Master's in Data Science"
+        ],
+        "extracted_experience_years": 3.0,
+        "expected_roles": [
+          "Data Scientist",
+          "Machine Learning Engineer",
+          "AI/ML Specialist"
+        ],
+        "predicted_qualified_roles": [
+          "Data Scientist"
+        ],
+        "precision": 1.0,
+        "recall": 0.333,
+        "f1": 0.5
+      },
+      {
+        "name": "Carol Williams",
+        "extracted_skills": [
+          "Communication",
+          "Marketing",
+          "SEO"
+        ],
+        "extracted_education": [
+          "Bachelor's in Marketing"
+        ],
+        "extracted_experience_years": 2.0,
+        "expected_roles": [
+          "Digital Marketing Manager",
+          "SEO Specialist",
+          "Content Marketing Manager"
+        ],
+        "predicted_qualified_roles": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "name": "David Martinez",
+        "extracted_skills": [
+          "Problem Solving",
+          "Compliance"
+        ],
+        "extracted_education": [],
+        "extracted_experience_years": 4.0,
+        "expected_roles": [
+          "Electrician",
+          "Electrical Technician",
+          "Senior Electrician"
+        ],
+        "predicted_qualified_roles": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "name": "Emma Thompson",
+        "extracted_skills": [
+          "Leadership",
+          "Creativity"
+        ],
+        "extracted_education": [
+          "Diploma in Experience"
+        ],
+        "extracted_experience_years": 6.0,
+        "expected_roles": [
+          "Head Chef",
+          "Sous Chef",
+          "Executive Chef"
+        ],
+        "predicted_qualified_roles": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "name": "Frank Wilson",
+        "extracted_skills": [
+          "Problem Solving",
+          "Communication",
+          "Leadership",
+          "Compliance"
+        ],
+        "extracted_education": [
+          "Bachelor's in Healthcare Administration, MBA"
+        ],
+        "extracted_experience_years": 7.0,
+        "expected_roles": [
+          "Hospital Administrator",
+          "Healthcare Manager",
+          "Operations Manager"
+        ],
+        "predicted_qualified_roles": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "name": "Grace Lee",
+        "extracted_skills": [
+          "Problem Solving",
+          "Data Analysis",
+          "Communication"
+        ],
+        "extracted_education": [
+          "Bachelor's in Environmental Science"
+        ],
+        "extracted_experience_years": 3.0,
+        "expected_roles": [
+          "Wildlife Biologist",
+          "Conservation Officer",
+          "Park Ranger"
+        ],
+        "predicted_qualified_roles": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      {
+        "name": "Henry Kumar",
+        "extracted_skills": [
+          "Problem Solving",
+          "Business Acumen",
+          "Leadership",
+          "Sales"
+        ],
+        "extracted_education": [
+          "Associate in Business Management"
+        ],
+        "extracted_experience_years": 5.0,
+        "expected_roles": [
+          "Retail Manager",
+          "Store Manager",
+          "Sales Manager"
+        ],
+        "predicted_qualified_roles": [],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    ],
+    "summary": {
+      "avg_precision": 0.125,
+      "avg_recall": 0.042,
+      "avg_f1": 0.062
+    }
+  }
+}
